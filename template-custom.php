@@ -4,6 +4,14 @@
  * Description: A custom page template for special layout.
  */
 
+function add_custom_meta_tags() {
+    if (is_page_template('template-custom.php')) {
+        echo '<meta name="description" content="This is a custom page template.">';
+        echo '<link rel="stylesheet" href="' . get_template_directory_uri() . '/custom-style.css">';
+    }
+}
+add_action('wp_head', 'add_custom_meta_tags');
+
 get_header(); ?>
 
 <main id="main" class="site-main">
