@@ -1,0 +1,44 @@
+/*
+Theme Name: Undangan Onlen
+Theme URI: http://example.com/my-custom-theme
+Author: Dani Widodo
+Author URI: http://example.com
+Description: A custom WordPress theme created for demonstration purposes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, theme, wordpress
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
